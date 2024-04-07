@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.0](https://github.com/alexfertel/revm/compare/revm-interpreter-v4.0.0...revm-interpreter-v5.0.0) - 2024-04-07
+
+### Added
+- *(interpreter)* derive Eq for InterpreterAction ([#1262](https://github.com/alexfertel/revm/pull/1262))
+- *(interpreter)* remove SPEC generic from gas calculation functions ([#1243](https://github.com/alexfertel/revm/pull/1243))
+- *(interpreter)* test Host object-safety, allow `dyn Host` in instructions ([#1245](https://github.com/alexfertel/revm/pull/1245))
+
 ## [4.0.0](https://github.com/bluealloy/revm/compare/revm-interpreter-v3.4.0...revm-interpreter-v4.0.0) - 2024-04-02
 
 ### Added

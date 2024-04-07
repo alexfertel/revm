@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.2.0](https://github.com/alexfertel/revm/compare/revm-primitives-v3.1.1...revm-primitives-v3.2.0) - 2024-04-07
+
+### Added
+- *(interpreter)* remove SPEC generic from gas calculation functions ([#1243](https://github.com/alexfertel/revm/pull/1243))
+
 ## [3.1.1](https://github.com/bluealloy/revm/compare/revm-primitives-v3.1.0...revm-primitives-v3.1.1) - 2024-04-02
 
 ### Fixed
