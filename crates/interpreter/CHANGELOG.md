@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.0](https://github.com/alexfertel/revm/compare/revm-interpreter-v4.0.0...revm-interpreter-v5.0.0) - 2024-04-18
+
+### Added
+- *(revm)* make `FrameOrResult` serializable ([#1282](https://github.com/alexfertel/revm/pull/1282))
+- add flag to force hashbrown usage ([#1284](https://github.com/alexfertel/revm/pull/1284))
+- EOF (Ethereum Object Format) ([#1143](https://github.com/alexfertel/revm/pull/1143))
+- *(interpreter)* derive Eq for InterpreterAction ([#1262](https://github.com/alexfertel/revm/pull/1262))
+- *(interpreter)* remove SPEC generic from gas calculation functions ([#1243](https://github.com/alexfertel/revm/pull/1243))
+- *(interpreter)* test Host object-safety, allow `dyn Host` in instructions ([#1245](https://github.com/alexfertel/revm/pull/1245))
+
+### Fixed
+- correct some stack IO ([#1302](https://github.com/alexfertel/revm/pull/1302))
+
+### Other
+- *(interpreter)* rename some macros ([#1304](https://github.com/alexfertel/revm/pull/1304))
+- *(interpreter)* remove EOF branch in CODE{SIZE,COPY} ([#1308](https://github.com/alexfertel/revm/pull/1308))
+- fix some warnings ([#1305](https://github.com/alexfertel/revm/pull/1305))
+- *(interpreter)* rename wrapping_* opcodes ([#1306](https://github.com/alexfertel/revm/pull/1306))
+- Add the modifies_memory macro ([#1270](https://github.com/alexfertel/revm/pull/1270))
+- *(interpreter)* use `pop_top!` where possible ([#1267](https://github.com/alexfertel/revm/pull/1267))
+
 ## [4.0.0](https://github.com/bluealloy/revm/compare/revm-interpreter-v3.4.0...revm-interpreter-v4.0.0) - 2024-04-02
 
 ### Added

@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.0.0](https://github.com/alexfertel/revm/compare/revm-primitives-v3.1.1...revm-primitives-v4.0.0) - 2024-04-18
+
+### Added
+- add `Bytecode::original_bytecode_slice` to match `BytecodeLocked` ([#1286](https://github.com/alexfertel/revm/pull/1286))
+- add flag to force hashbrown usage ([#1284](https://github.com/alexfertel/revm/pull/1284))
+- EOF (Ethereum Object Format) ([#1143](https://github.com/alexfertel/revm/pull/1143))
+- pass rand feature to alloy_primitives ([#1276](https://github.com/alexfertel/revm/pull/1276))
+- *(interpreter)* remove SPEC generic from gas calculation functions ([#1243](https://github.com/alexfertel/revm/pull/1243))
+
+### Other
+- *(interpreter)* remove EOF branch in CODE{SIZE,COPY} ([#1308](https://github.com/alexfertel/revm/pull/1308))
+- Update documentation ([#1275](https://github.com/alexfertel/revm/pull/1275))
+
 ## [3.1.1](https://github.com/bluealloy/revm/compare/revm-primitives-v3.1.0...revm-primitives-v3.1.1) - 2024-04-02
 
 ### Fixed
