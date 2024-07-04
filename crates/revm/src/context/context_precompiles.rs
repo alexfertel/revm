@@ -8,7 +8,7 @@ use revm_precompile::{PrecompileSpecId, PrecompileWithAddress, Precompiles};
 use std::{boxed::Box, sync::Arc};
 
 /// A single precompile handler.
-pub enum ContextPrecompile<DB: Database> {
+pub enum ContextPrecompile<DB: Database + ?Sized> {
     /// Ordinary precompiles
     Ordinary(Precompile),
     /// Stateful precompile that is Arc over [`ContextStatefulPrecompile`] trait.
